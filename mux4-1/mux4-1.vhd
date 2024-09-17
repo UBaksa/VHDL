@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    17:24:48 09/17/2024 
+-- Create Date:    23:18:53 09/17/2024 
 -- Design Name: 
--- Module Name:    decoder - Behavioral 
+-- Module Name:    mux4-1 - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,23 +29,23 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity decoder is
+entity mux41 is
 port (
 X1: in std_logic;
 X2: in std_logic;
-Y1: out std_logic;
-Y2: out std_logic;
-Y3: out std_logic;
-Y4: out std_logic);
-end decoder;
+X3: in std_logic;
+X4: in std_logic;
+S1: in std_logic;
+S2: in std_logic;
+F: out std_logic);
 
-architecture Behavioral of decoder is
+end mux41;
+
+architecture Behavioral of mux41 is
 
 begin
-Y0 <= (not X1) and (not X2);
-Y1 <= (not X1) and X2;
-Y3 <= X1 and (not X2);
-Y4 <= X1 and X2;
+
+F <= (((not S1) and (not S2) and X4) or ((not S1) and S2 and X3) or (S1 and (not S2) and X2) or (S1 and S2 and X1));
 
 end Behavioral;
 
