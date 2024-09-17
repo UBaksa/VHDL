@@ -1,0 +1,4 @@
+vhdl isim_temp "registerbit.vhd"
+vhdl isim_temp "clock_divider.vhd"
+vhdl isim_temp "registerMapped2.vhd"
+vhdl isim_temp "tb.vhd"

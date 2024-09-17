@@ -1,0 +1,3 @@
+work	"clock_divider.vhd"
+work	"registerMapped2.vhd"
+work	"registerbit.vhd"
