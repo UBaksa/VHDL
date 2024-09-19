@@ -1,0 +1,6 @@
+net X1 loc = Y8;
+net X2 loc = Y9;
+net Y1 loc = AB7;
+net Y2 loc = AB8;
+net Y3 loc = AB9;
+net Y4 loc = AA9;

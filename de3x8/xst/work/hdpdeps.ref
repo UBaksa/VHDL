@@ -1,0 +1,12 @@
+V3 7
+FL C:/Users/korisnik/Desktop/VHDL/de3x8/de3x8.vhd 2024/09/19.18:48:10 P.20131013
+EN work/de3x8 1726764526 FL C:/Users/korisnik/Desktop/VHDL/de3x8/de3x8.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/de3x8/Behavioral 1726764527 \
+      FL C:/Users/korisnik/Desktop/VHDL/de3x8/de3x8.vhd EN work/de3x8 1726764526 \
+      CP Dec2to4
+FL C:/Users/korisnik/Desktop/VHDL/de3x8/Dec2to4.vhd 2024/09/19.18:48:38 P.20131013
+EN work/Dec2to4 1726764524 FL C:/Users/korisnik/Desktop/VHDL/de3x8/Dec2to4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dec2to4/Behavioral 1726764525 \
+      FL C:/Users/korisnik/Desktop/VHDL/de3x8/Dec2to4.vhd EN work/Dec2to4 1726764524

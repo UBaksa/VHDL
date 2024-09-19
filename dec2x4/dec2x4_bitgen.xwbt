@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\korisnik\Desktop\VHDL\dec2x4\dec2x4.ncd
+OUTFILE=C:\Users\korisnik\Desktop\VHDL\dec2x4\dec2x4.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\korisnik\Desktop\VHDL\dec2x4
+LICENSE=WebPack
+USER_INFO=213165152_0_0_616

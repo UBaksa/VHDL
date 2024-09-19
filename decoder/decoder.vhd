@@ -42,8 +42,8 @@ end decoder;
 architecture Behavioral of decoder is
 
 begin
-Y0 <= (not X1) and (not X2);
-Y1 <= (not X1) and X2;
+Y1 <= (not X1) and (not X2);
+Y2 <= (not X1) and X2;
 Y3 <= X1 and (not X2);
 Y4 <= X1 and X2;
 

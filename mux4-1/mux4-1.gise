@@ -47,6 +47,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="mux41.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="mux41.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="mux41.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mux41_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="mux41_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux41_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux41_map.mrp" xil_pn:subbranch="Map"/>
@@ -62,6 +63,7 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="mux41_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux41_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux41_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -119,10 +121,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1726610316" xil_pn:in_ck="5228584798626652" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1881485218769686900" xil_pn:start_ts="1726610307">
+    <transform xil_pn:end_ts="1726741921" xil_pn:in_ck="5228584798626652" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-599866890881631168" xil_pn:start_ts="1726741913">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -141,21 +142,27 @@
     <transform xil_pn:end_ts="1726610316" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3477556042283408311" xil_pn:start_ts="1726610316">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
     </transform>
-    <transform xil_pn:end_ts="1726610322" xil_pn:in_ck="158441968299813" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-184324231389410210" xil_pn:start_ts="1726610316">
+    <transform xil_pn:end_ts="1726741931" xil_pn:in_ck="158441968299813" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-184324231389410210" xil_pn:start_ts="1726741926">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="mux41.bld"/>
       <outfile xil_pn:name="mux41.ngd"/>
       <outfile xil_pn:name="mux41_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1726610328" xil_pn:in_ck="158441968299814" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6068476255904139836" xil_pn:start_ts="1726610322">
+    <transform xil_pn:end_ts="1726741934" xil_pn:in_ck="158441968299814" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6068476255904139836" xil_pn:start_ts="1726741931">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="mux41.pcf"/>
       <outfile xil_pn:name="mux41_map.map"/>
@@ -166,10 +173,12 @@
       <outfile xil_pn:name="mux41_summary.xml"/>
       <outfile xil_pn:name="mux41_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1726610336" xil_pn:in_ck="3432218837781635391" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1726610328">
+    <transform xil_pn:end_ts="1726741941" xil_pn:in_ck="3432218837781635391" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="3333849164707216606" xil_pn:start_ts="1726741934">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="mux41.ncd"/>
       <outfile xil_pn:name="mux41.pad"/>
@@ -181,10 +190,12 @@
       <outfile xil_pn:name="mux41_pad.txt"/>
       <outfile xil_pn:name="mux41_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1726610336" xil_pn:in_ck="158441968299682" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1726610333">
+    <transform xil_pn:end_ts="1726741941" xil_pn:in_ck="158441968299682" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1726741938">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="mux41.twr"/>
       <outfile xil_pn:name="mux41.twx"/>

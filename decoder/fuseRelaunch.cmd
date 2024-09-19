@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/korisnik/Desktop/VHDL/decoder/tbdecoder_isim_beh.exe" -prj "C:/Users/korisnik/Desktop/VHDL/decoder/tbdecoder_beh.prj" "work.tbdecoder" 

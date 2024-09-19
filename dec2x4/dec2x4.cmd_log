@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/korisnik/Desktop/VHDL/dec2x4/dec2x4.xst" -ofn "C:/Users/korisnik/Desktop/VHDL/dec2x4/dec2x4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc dec2x4.ucf -p xc3s1500-fg676-4 dec2x4.ngc dec2x4.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o dec2x4_map.ncd dec2x4.ngd dec2x4.pcf 
+par -w -intstyle ise -ol high -t 1 dec2x4_map.ncd dec2x4.ncd dec2x4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dec2x4.twx dec2x4.ncd -o dec2x4.twr dec2x4.pcf -ucf dec2x4.ucf 
+bitgen -intstyle ise -f dec2x4.ut dec2x4.ncd 

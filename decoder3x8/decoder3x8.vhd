@@ -31,26 +31,19 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity decoder3x8 is
 	port(
-	A: IN STD_LOGIC;
-	B: IN STD_LOGIC;
-	C: IN STD_LOGIC;
-	EN: IN STD_LOGIC;
-	F: OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
-	
+	A: is std_logic_vector(2 downto 0);
+	output: out std_logic_vector(7 downto 0));
 end decoder3x8;
 
 architecture Behavioral of decoder3x8 is
 
+component Decoder2x4 is
+port(
+    decIN: in std_logic_vector(1 downto 0);
+	 EN: in std_logic;
+	 decOUT: out std_logic_vector(3 downto 0));
 begin
-	process(A,B,C)
-	BEGIN
-		
-		IF(EN = '1') IS
-			CASE (A & B & C) THEN
-			
-			WHEN "000" => F <= "00000001";
-			WHEN "001" => F <= "00000010";
-		
+dec1: Decoder2X4 port map(EN => A(2)
 
 end Behavioral;
 

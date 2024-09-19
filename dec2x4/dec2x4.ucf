@@ -1,0 +1,7 @@
+NET A[0] LOC = Y8;
+NET A[1] LOC = Y9;
+NET EN LOC = Y10;
+NET F[0] LOC = AB7;
+NET F[1] LOC = AB8;
+NET F[2] LOC = AB9;
+NET F[3] LOC = AA9;

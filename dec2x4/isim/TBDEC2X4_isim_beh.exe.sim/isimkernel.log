@@ -1,0 +1,29 @@
+Command line:
+   TBDEC2X4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51918
+
+Thu Sep 19 18:00:53 2024
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.68 Meg
+
+ Total Signals          : 6
+ Total Nets             : 7
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+Total Line Count : 24
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4993.39 Meg
+
+Thu Sep 19 18:02:56 2024
+

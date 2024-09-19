@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/korisnik/Desktop/VHDL/dec2x4/TBDEC2X4_isim_beh.exe" -prj "C:/Users/korisnik/Desktop/VHDL/dec2x4/TBDEC2X4_beh.prj" "work.TBDEC2X4" 

@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 19 17:48:49 2024
+
+drc -z dec2x4.ncd dec2x4.pcf
+
+DRC detected 0 errors and 0 warnings.

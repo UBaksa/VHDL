@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-09-18T15:37:20</DateModified>
+  <DateModified>2024-09-19T12:46:06</DateModified>
   <ModuleName>decoder3x8</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/korisnik/Desktop/VHDL/decoder3x8/iseconfig/decoder3x8.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/korisnik/Desktop/VHDL/decoder3x8</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/korisnik/Desktop/VHDL/decoder3x8\</ImplementationReportsDirectory>
   <DateInitialized>2024-09-18T15:37:20</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

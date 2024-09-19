@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Reading design: mux41.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 8
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -105,19 +105,18 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/korisnik/Desktop/VHDL/mux4-1/mux4-1.vhd" in Library work.
-Entity <mux41> compiled.
-Entity <mux41> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity mux41 is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <mux41> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <mux41> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <mux41> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <mux41> in library <work> (Architecture <behavioral>).
 Entity <mux41> analyzed. Unit <mux41> generated.
 
 
@@ -271,11 +270,11 @@ Delay:               9.317ns (Levels of Logic = 4)
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.82 secs
+Total CPU time to Xst completion: 4.46 secs
  
 --> 
 
-Total memory usage is 4498236 kilobytes
+Total memory usage is 4498212 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
