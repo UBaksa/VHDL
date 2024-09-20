@@ -1,0 +1,6 @@
+net J loc = Y8;
+net K loc = Y9;
+net CLK loc = AE14;
+net RESET loc = W13;
+net Q loc = AB7;
+net Qn loc = AB8;

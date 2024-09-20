@@ -1,0 +1,19 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 19 21:11:29 2024
+
+8 signals are not completely routed.
+
+WARNING:ParHelpers:360 - Design is not completely routed.
+
+   CLK_BUFGP
+   CLK_BUFGP/IBUFG
+   GLOBAL_LOGIC1
+   J_IBUF
+   K_IBUF
+   Qtemp
+   Qtemp_not0001
+   RESET_IBUF
+
+

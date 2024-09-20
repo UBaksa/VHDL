@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/korisnik/Desktop/VHDL/brzibrojactff/brzibrojactff.xst" -ofn "C:/Users/korisnik/Desktop/VHDL/brzibrojactff/brzibrojactff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brzibrojactff.ucf -p xc3s1500-fg676-4 brzibrojactff.ngc brzibrojactff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brzibrojactff_map.ncd brzibrojactff.ngd brzibrojactff.pcf 
+par -w -intstyle ise -ol high -t 1 brzibrojactff_map.ncd brzibrojactff.ncd brzibrojactff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brzibrojactff.twx brzibrojactff.ncd -o brzibrojactff.twr brzibrojactff.pcf -ucf brzibrojactff.ucf 
+bitgen -intstyle ise -f brzibrojactff.ut brzibrojactff.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brzibrojactff.ucf -p xc3s1500-fg676-4 brzibrojactff.ngc brzibrojactff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brzibrojactff_map.ncd brzibrojactff.ngd brzibrojactff.pcf 
+par -w -intstyle ise -ol high -t 1 brzibrojactff_map.ncd brzibrojactff.ncd brzibrojactff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brzibrojactff.twx brzibrojactff.ncd -o brzibrojactff.twr brzibrojactff.pcf -ucf brzibrojactff.ucf 
+bitgen -intstyle ise -f brzibrojactff.ut brzibrojactff.ncd 

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 19 21:06:21 2024
+# Process ID: 10784
+# Log file: C:/Users/korisnik/Desktop/VHDL/jkff/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/korisnik/Desktop/VHDL/jkff/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/korisnik/Desktop/VHDL/jkff/pa.fromNetlist.tcl

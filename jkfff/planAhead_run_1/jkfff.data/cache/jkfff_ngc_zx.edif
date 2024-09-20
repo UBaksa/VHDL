@@ -1,0 +1,310 @@
+(edif jkfff
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 9 19 21 13 31)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure jkfff.ngc jkfff.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell FDCE
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port CE
+              (direction INPUT)
+            )
+            (port CLR
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT2
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT3
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell BUFGP
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell INV
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library jkfff_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell jkfff
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port CLK
+              (direction INPUT)
+            )
+            (port RESET
+              (direction INPUT)
+            )
+            (port J
+              (direction INPUT)
+            )
+            (port K
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+            (port Qn
+              (direction OUTPUT)
+            )
+            (designator "xc3s1500-4-fg676")
+            (property TYPE (string "jkfff") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "jkfff_jkfff") (owner "Xilinx"))
+          )
+          (contents
+            (instance (rename Qtemp_renamed_0 "Qtemp")
+              (viewRef view_1 (cellRef FDCE (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Qtemp_not00011
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "E") (owner "Xilinx"))
+            )
+            (instance Qtemp_mux00001
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "2A") (owner "Xilinx"))
+            )
+            (instance (rename RESET_IBUF_renamed_1 "RESET_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename J_IBUF_renamed_2 "J_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename K_IBUF_renamed_3 "K_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Q_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Qn_OBUF_renamed_4 "Qn_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename CLK_BUFGP_renamed_5 "CLK_BUFGP")
+              (viewRef view_1 (cellRef BUFGP (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance Qn1_INV_0
+              (viewRef view_1 (cellRef INV (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net CLK
+              (joined
+                (portRef CLK)
+                (portRef I (instanceRef CLK_BUFGP_renamed_5))
+              )
+            )
+            (net CLK_BUFGP
+              (joined
+                (portRef C (instanceRef Qtemp_renamed_0))
+                (portRef O (instanceRef CLK_BUFGP_renamed_5))
+              )
+            )
+            (net J
+              (joined
+                (portRef J)
+                (portRef I (instanceRef J_IBUF_renamed_2))
+              )
+            )
+            (net J_IBUF
+              (joined
+                (portRef I0 (instanceRef Qtemp_not00011))
+                (portRef I0 (instanceRef Qtemp_mux00001))
+                (portRef O (instanceRef J_IBUF_renamed_2))
+              )
+            )
+            (net K
+              (joined
+                (portRef K)
+                (portRef I (instanceRef K_IBUF_renamed_3))
+              )
+            )
+            (net K_IBUF
+              (joined
+                (portRef I1 (instanceRef Qtemp_not00011))
+                (portRef I1 (instanceRef Qtemp_mux00001))
+                (portRef O (instanceRef K_IBUF_renamed_3))
+              )
+            )
+            (net Q
+              (joined
+                (portRef Q)
+                (portRef O (instanceRef Q_OBUF))
+              )
+            )
+            (net Qn
+              (joined
+                (portRef Qn)
+                (portRef O (instanceRef Qn_OBUF_renamed_4))
+              )
+            )
+            (net Qn_OBUF
+              (joined
+                (portRef I (instanceRef Qn_OBUF_renamed_4))
+                (portRef O (instanceRef Qn1_INV_0))
+              )
+            )
+            (net Qtemp
+              (joined
+                (portRef Q (instanceRef Qtemp_renamed_0))
+                (portRef I2 (instanceRef Qtemp_mux00001))
+                (portRef I (instanceRef Q_OBUF))
+                (portRef I (instanceRef Qn1_INV_0))
+              )
+            )
+            (net Qtemp_mux0000
+              (joined
+                (portRef D (instanceRef Qtemp_renamed_0))
+                (portRef O (instanceRef Qtemp_mux00001))
+              )
+            )
+            (net Qtemp_not0001
+              (joined
+                (portRef CE (instanceRef Qtemp_renamed_0))
+                (portRef O (instanceRef Qtemp_not00011))
+              )
+            )
+            (net RESET
+              (joined
+                (portRef RESET)
+                (portRef I (instanceRef RESET_IBUF_renamed_1))
+              )
+            )
+            (net RESET_IBUF
+              (joined
+                (portRef CLR (instanceRef Qtemp_renamed_0))
+                (portRef O (instanceRef RESET_IBUF_renamed_1))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design jkfff
+    (cellRef jkfff
+      (libraryRef jkfff_lib)
+    )
+    (property PART (string "xc3s1500-4-fg676") (owner "Xilinx"))
+  )
+)
+

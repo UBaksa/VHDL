@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/korisnik/Desktop/VHDL/jkfff/jkfff.xst" -ofn "C:/Users/korisnik/Desktop/VHDL/jkfff/jkfff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc jkfff.ucf -p xc3s1500-fg676-4 jkfff.ngc jkfff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o jkfff_map.ncd jkfff.ngd jkfff.pcf 
+par -w -intstyle ise -ol high -t 1 jkfff_map.ncd jkfff.ncd jkfff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml jkfff.twx jkfff.ncd -o jkfff.twr jkfff.pcf -ucf jkfff.ucf 
+bitgen -intstyle ise -f jkfff.ut jkfff.ncd 

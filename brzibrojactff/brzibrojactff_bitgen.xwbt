@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\korisnik\Desktop\VHDL\brzibrojactff\brzibrojactff.ncd
+OUTFILE=C:\Users\korisnik\Desktop\VHDL\brzibrojactff\brzibrojactff.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\korisnik\Desktop\VHDL\brzibrojactff
+LICENSE=WebPack
+USER_INFO=213165152_0_0_616

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 19 19:24:47 2024
+# Process ID: 9028
+# Log file: C:/Users/korisnik/Desktop/VHDL/decoder_switch/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/korisnik/Desktop/VHDL/decoder_switch/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/korisnik/Desktop/VHDL/decoder_switch/pa.fromNetlist.tcl
