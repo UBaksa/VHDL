@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.xst" -ofn "C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register8bit.ucf -p xc3s1500-fg676-4 register8bit.ngc register8bit.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o register8bit_map.ncd register8bit.ngd register8bit.pcf 
+par -w -intstyle ise -ol high -t 1 register8bit_map.ncd register8bit.ncd register8bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register8bit.twx register8bit.ncd -o register8bit.twr register8bit.pcf -ucf register8bit.ucf 
+bitgen -intstyle ise -f register8bit.ut register8bit.ncd 

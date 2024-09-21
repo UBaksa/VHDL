@@ -1,0 +1,7 @@
+AR clock_divider behavioral C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/clock_divider.vhd sub00/vhpl01 1726852715
+EN tff NULL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/TFF.vhd sub00/vhpl02 1726852716
+EN clock_divider NULL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/clock_divider.vhd sub00/vhpl00 1726852714
+AR tff behavioral C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/TFF.vhd sub00/vhpl03 1726852717
+AR counter3bitasync behavioral C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd sub00/vhpl06 1726852719
+EN counter3bitasync NULL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd sub00/vhpl05 1726852718
+EN countertff NULL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd sub00/vhpl04 1726852470

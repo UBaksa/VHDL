@@ -1,0 +1,21 @@
+V3 11
+FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/clock_divider.vhd 2024/09/20.19:11:56 P.20131013
+EN work/clock_divider 1726852714 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1726852715 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/clock_divider.vhd \
+      EN work/clock_divider 1726852714
+FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd 2024/09/20.19:18:31 P.20131013
+EN work/counter3bitAsync 1726852718 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/counter3bitAsync/Behavioral 1726852719 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/countertff.vhd \
+      EN work/counter3bitAsync 1726852718 CP clock_divider CP TFF
+FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/TFF.vhd 2024/09/20.19:13:54 P.20131013
+EN work/TFF 1726852716 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/TFF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TFF/Behavioral 1726852717 \
+      FL C:/Users/korisnik/Desktop/VHDL/counter3bitwithtff/TFF.vhd EN work/TFF 1726852716
