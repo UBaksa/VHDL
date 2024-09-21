@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/fourbitadder.vhd 2024/09/21.23:13:41 P.20131013
+EN work/fourbitadder 1726953715 \
+      FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/fourbitadder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fourbitadder/Behavioral 1726953716 \
+      FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/fourbitadder.vhd \
+      EN work/fourbitadder 1726953715 CP sabirac4bit
+FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/sabirac4bit.vhd 2024/09/21.23:19:05 P.20131013
+EN work/sabirac4bit 1726953713 \
+      FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/sabirac4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sabirac4bit/Behavioral 1726953714 \
+      FL C:/Users/korisnik/Desktop/VHDL/fourbitadder/sabirac4bit.vhd \
+      EN work/sabirac4bit 1726953713

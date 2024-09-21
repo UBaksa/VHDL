@@ -1,0 +1,3 @@
+vhdl work "sabirac4bit.vhd"
+vhdl work "fourbitadder.vhd"
+vhdl work "tbfourbitadder.vhd"

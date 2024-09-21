@@ -1,0 +1,29 @@
+Command line:
+   tbfourbitadder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54737
+
+Sat Sep 21 23:49:25 2024
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.11 Meg
+
+ Total Signals          : 31
+ Total Nets             : 19
+ Total Signal Drivers   : 13
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 11
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 379
+Total Line Count : 19
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 4678.25 Meg
+
+Sat Sep 21 23:52:07 2024
+

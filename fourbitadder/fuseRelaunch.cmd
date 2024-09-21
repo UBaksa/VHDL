@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/korisnik/Desktop/VHDL/fourbitadder/tbfourbitadder_isim_beh.exe" -prj "C:/Users/korisnik/Desktop/VHDL/fourbitadder/tbfourbitadder_beh.prj" "work.tbfourbitadder" 
