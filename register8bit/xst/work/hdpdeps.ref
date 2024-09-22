@@ -1,15 +1,15 @@
 V3 7
 FL C:/Users/korisnik/Desktop/VHDL/register8bit/clock_divider.vhd 2024/09/20.19:35:22 P.20131013
-EN work/clock_Divider 1726853727 \
+EN work/clock_Divider 1727033403 \
       FL C:/Users/korisnik/Desktop/VHDL/register8bit/clock_divider.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/Clock_Divider/Behavioral 1726853728 \
+AR work/Clock_Divider/Behavioral 1727033404 \
       FL C:/Users/korisnik/Desktop/VHDL/register8bit/clock_divider.vhd \
-      EN work/clock_Divider 1726853727
+      EN work/clock_Divider 1727033403
 FL C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.vhd 2024/09/20.19:31:46 P.20131013
-EN work/register8bit 1726853729 \
+EN work/register8bit 1727033405 \
       FL C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/register8bit/Behavioral 1726853730 \
+AR work/register8bit/Behavioral 1727033406 \
       FL C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.vhd \
-      EN work/register8bit 1726853729 CP clock_divider
+      EN work/register8bit 1727033405 CP clock_divider

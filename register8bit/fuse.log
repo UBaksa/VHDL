@@ -1,0 +1,11 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/korisnik/Desktop/VHDL/register8bit/tbt_isim_beh.exe -prj C:/Users/korisnik/Desktop/VHDL/register8bit/tbt_beh.prj work.tbt 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/korisnik/Desktop/VHDL/register8bit/clock_divider.vhd" into library work
+Parsing VHDL file "C:/Users/korisnik/Desktop/VHDL/register8bit/register8bit.vhd" into library work
+Parsing VHDL file "C:/Users/korisnik/Desktop/VHDL/register8bit/tbt.vhd" into library work
+ERROR:HDLCompiler:303 - "C:/Users/korisnik/Desktop/VHDL/register8bit/tbt.vhd" Line 103: Character '0' is not in type std_logic_vector
+ERROR:HDLCompiler:854 - "C:/Users/korisnik/Desktop/VHDL/register8bit/tbt.vhd" Line 38: Unit <behavior> ignored due to previous errors.
+VHDL file C:/Users/korisnik/Desktop/VHDL/register8bit/tbt.vhd ignored due to errors

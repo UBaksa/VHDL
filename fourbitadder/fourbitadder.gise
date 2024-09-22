@@ -82,6 +82,7 @@
     </transform>
     <transform xil_pn:end_ts="1726953563" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1726953563">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1726955360" xil_pn:in_ck="-4627843213458513142" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1726955360">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -114,7 +115,7 @@
     </transform>
     <transform xil_pn:end_ts="1726955363" xil_pn:in_ck="-4627843213458513142" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="531173050609832875" xil_pn:start_ts="1726955360">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -124,7 +125,7 @@
     </transform>
     <transform xil_pn:end_ts="1726955364" xil_pn:in_ck="7729558890146944576" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3637931090829920584" xil_pn:start_ts="1726955363">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -134,6 +135,7 @@
     </transform>
     <transform xil_pn:end_ts="1726953709" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1726953709">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1726953709" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2195442160449813814" xil_pn:start_ts="1726953709">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -162,6 +164,7 @@
     <transform xil_pn:end_ts="1726953718" xil_pn:in_ck="2189874682653458051" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="8479524660611184441" xil_pn:start_ts="1726953709">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -184,6 +187,7 @@
     <transform xil_pn:end_ts="1726953724" xil_pn:in_ck="7449141477183904449" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5159417345036788189" xil_pn:start_ts="1726953718">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="fourbitadder.bld"/>
@@ -193,6 +197,7 @@
     <transform xil_pn:end_ts="1726953730" xil_pn:in_ck="7449141477183904450" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8741180932482148155" xil_pn:start_ts="1726953724">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="fourbitadder.pcf"/>
       <outfile xil_pn:name="fourbitadder_map.map"/>
@@ -206,6 +211,7 @@
     <transform xil_pn:end_ts="1726953741" xil_pn:in_ck="2913098216802433755" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-561354228862665646" xil_pn:start_ts="1726953730">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="fourbitadder.ncd"/>
       <outfile xil_pn:name="fourbitadder.pad"/>
@@ -220,6 +226,7 @@
     <transform xil_pn:end_ts="1726953741" xil_pn:in_ck="7449141477183904318" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1726953738">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="fourbitadder.twr"/>
       <outfile xil_pn:name="fourbitadder.twx"/>

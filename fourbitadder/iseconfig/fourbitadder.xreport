@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-09-21T23:13:51</DateModified>
+  <DateModified>2024-09-22T00:28:28</DateModified>
   <ModuleName>fourbitadder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/korisnik/Desktop/VHDL/fourbitadder/iseconfig/fourbitadder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/korisnik/Desktop/VHDL/fourbitadder</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/korisnik/Desktop/VHDL/fourbitadder\</ImplementationReportsDirectory>
   <DateInitialized>2024-09-21T20:55:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
