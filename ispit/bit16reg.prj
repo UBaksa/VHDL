@@ -1,0 +1,5 @@
+vhdl work "reg4bit.vhd"
+vhdl work "increment.vhd"
+vhdl work "decrement.vhd"
+vhdl work "clock_divider.vhd"
+vhdl work "bit16reg.vhd"

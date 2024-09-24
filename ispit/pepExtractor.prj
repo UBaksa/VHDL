@@ -1,0 +1,5 @@
+work	"bit16reg.vhd"
+work	"clock_divider.vhd"
+work	"decrement.vhd"
+work	"increment.vhd"
+work	"reg4bit.vhd"
